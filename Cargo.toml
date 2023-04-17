@@ -6,10 +6,11 @@ edition = "2021"
 [workspace]
 resolver = "2"
 members = [
-    "games/*"
+    "games/tetris"
 ]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-tetris = { path = "games/tetris" }
+sfml = "0.20.0"
+tetris = { path = "./games/tetris/" }

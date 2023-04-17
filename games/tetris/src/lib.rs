@@ -1,5 +1,5 @@
 mod game;
 
-fn main() {
+pub fn run() {
     game::run();
 }
